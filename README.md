@@ -62,12 +62,11 @@ JavaFXProductivityApp/
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   ├── com/jeyanth/ui/
+│       │   ├── com/jeyanth/db/
 │       │   └── com/jeyanth/config/
-│       └── resources/
-│           ├── fxml/
-│           └── images/
-├── battery_sentinel.sh
+|       |   └── com/jeyanth/model/
+|       |   └── com/jeyanth/view/
+│       └── resources/styles.css
 ```
 
 ---

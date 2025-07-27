@@ -44,9 +44,9 @@ mvn clean package
 
 ```bash
 #!/bin/bash
-java --module-path ~/javafx-sdk-21/lib \
-     --add-modules javafx.controls,javafx.fxml \
-     -jar "/media/jeyanth-s/DevStore/projects/Java Projects/JavaFXProductivityApp/target/JavaFXProductivityApp-1.0-SNAPSHOT-jar-with-dependencies.jar"
+java --module-path path/tojavafx/modules \
+     --add-modules path/to/java/fx \
+     -jar "path/to/compiled/jar"
 ```
 
 💡 *Make sure to update the module path and JAR location if needed.*
